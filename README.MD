@@ -66,7 +66,13 @@ The API uses environment variables for configuration, particularly for your Gemi
 
 **`GEMINI_API_KEY`**: Your Gemini API key for accessing the Gemini model.
 
-You can set this in your environment or create a `.env` file in the project root:
+You can set this in your environment or create a `.env` file by running this command:
+
+```
+cp .env.example .env
+```
+
+And then, fill the `GEMINI_API_KEY` with your own Gemini API key
 
 ```
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
